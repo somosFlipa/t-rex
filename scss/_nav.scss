@@ -1,0 +1,26 @@
+$celeste1: #366ff9;
+
+$textoBlanco: #fcfcfc;
+
+$bodyCard: 16px;
+$bold: 700;
+
+nav {
+  background-color: $celeste1;
+  font-weight: $bold;
+  font-size: $bodyCard;
+  display: flex;
+
+  a.nav-link {
+    color: $textoBlanco;
+  }
+  button.navbar-toggler {
+    display: grid;
+    margin: -45px -5px 10px auto;
+    border: none;
+  }
+  span img {
+    width: 60%;
+    height: 60%;
+  }
+}

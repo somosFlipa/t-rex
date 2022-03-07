@@ -1,0 +1,349 @@
+$amarillo: #f5c642;
+$beige: #fff5da;
+$celesteClaro: #ffd8de;
+$celeste1: #366ff9;
+$azulFrancia: #0142de;
+$azulMarino: #0a2344;
+$textoBlanco: #fcfcfc;
+$textoGris: #b9b9b9;
+$H1: 64px;
+$H2: 48px;
+$H3: 36px;
+$H4: 24px;
+$cardheader: 24px;
+$body: 20px;
+$bodyCard: 16px;
+$extraBold: 900;
+$bold: 700;
+$medium: 500;
+$regular: 400;
+$light: 300;
+$thin: 200;
+
+main {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+
+  // 1st
+  .first {
+    h3 {
+      font-size: $H3;
+    }
+    p {
+      font-size: $body;
+    }
+    .min {
+      margin-top: 75px;
+      margin-bottom: 15px;
+
+      font-size: $bodyCard;
+      color: #366ff9;
+    }
+
+    .cards {
+      margin-left: 142px;
+      display: grid;
+      grid-template-areas: "card1 card2 card3";
+      justify-content: space-around;
+    }
+    .card1 {
+      grid-area: card1;
+    }
+    .card2 {
+      background-color: $celeste1;
+      border: none;
+      grid-area: card2;
+      color: $textoBlanco;
+      .card-title {
+        font-size: $cardheader;
+        font-weight: $bold;
+        color: $textoBlanco;
+      }
+      p {
+        font-size: $bodyCard;
+        color: $textoBlanco;
+      }
+    }
+    .card3 {
+      grid-area: card3;
+    }
+    .card {
+      border-radius: 10%;
+      box-shadow: #b9b9b9 6px 6px 6px 5px;
+      border: none;
+      text-align: start;
+      width: 224px;
+      height: 250px;
+      .card-title {
+        margin-bottom: 40px;
+        margin-top: 10px;
+        margin-left: 8px;
+        font-size: $cardheader;
+        font-weight: $bold;
+      }
+      p {
+        margin-left: 6px;
+        font-size: $bodyCard;
+      }
+    }
+    .card:hover {
+      transform: translate(0, -10px);
+    }
+    button.desktop {
+      background-color: $textoBlanco;
+      border: solid 2px;
+      outline: $celeste1;
+      color: $celeste1;
+      border-radius: 5px;
+      font-size: $body;
+      font-weight: $bold;
+      margin-top: 48px;
+      margin-left: 6px;
+      width: 223px;
+      height: 60px;
+    }
+    button.desktop:hover {
+      background-color: $azulMarino;
+      color: $textoBlanco;
+    }
+  }
+  //
+  h2 {
+    font-size: $H2;
+    font-weight: $bold;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  #scrollspyHeading1 {
+    margin: 40px auto 100px auto;
+    background-color: #ffffff;
+  }
+  // 2nd
+  .second {
+    background-image: url(../media/backgroun_azul.png);
+    h3 {
+      font-size: $H3;
+      color: $textoBlanco;
+    }
+    button {
+      background-color: $textoBlanco;
+      border: solid 2px;
+      outline: $celeste1;
+      color: $celeste1;
+      border-radius: 5px;
+      font-size: $body;
+      font-weight: $bold;
+      width: 221px;
+      height: 52px;
+    }
+    button:hover {
+      background-color: $azulMarino;
+      color: $textoBlanco;
+    }
+  }
+  // 3rd
+  .third {
+    background-color: #ffffff;
+    .card2 {
+      border: none;
+      grid-area: card2;
+      h5 {
+        font-weight: $bold;
+      }
+      p {
+        font-size: $bodyCard;
+      }
+      p.price {
+        color: $celeste1;
+      }
+      button {
+        background-color: $celeste1;
+        color: $textoBlanco;
+      }
+      button:hover {
+        background-color: $azulMarino;
+        color: $textoBlanco;
+      }
+    }
+    .card {
+      border-radius: 20px;
+      box-shadow: #b9b9b9 6px 6px 6px 5px;
+      border: none;
+      text-align: center;
+      max-width: 345px;
+      max-height: 668px;
+      h5 {
+        font-size: 24px;
+        font-weight: $bold;
+        text-align: start;
+        margin-left: 28px;
+      }
+      p {
+        font-size: $bodyCard;
+        text-align: start;
+        margin-left: 28px;
+      }
+      ul li {
+        font-size: $bodyCard;
+        font-weight: $bold;
+        margin-bottom: 10px;
+        list-style-type: none;
+        img {
+          width: 11.28px;
+          height: 11.28px;
+          margin-left: -85px;
+          margin-right: 28px;
+        }
+      }
+      button {
+        font-size: $body;
+        font-weight: $bold;
+        border-radius: 8px;
+        width: 223px;
+        height: 60px;
+      }
+      button:hover {
+        background-color: $azulMarino;
+        color: $textoBlanco;
+      }
+    }
+    p.price {
+      font-weight: $bold;
+      font-size: 32px;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translate(0, -10px);
+      .price {
+        color: $azulFrancia;
+      }
+    }
+  }
+  .fourth {
+    background-color: #fafafa;
+    h3 {
+      font-size: $H3;
+      font-weight: $bold;
+    }
+    h4 {
+      font-size: $H4;
+      font-weight: $bold;
+    }
+    p {
+      font-size: $bodyCard;
+      font-weight: $regular;
+    }
+    ul li {
+      list-style-type: none;
+      li {
+        margin-top: 63px;
+      }
+    }
+    .lista {
+      h4 {
+        margin-left: 89px;
+      }
+
+      p {
+        margin-left: 89px;
+        margin-right: 50px;
+        margin-top: -30px;
+        margin-bottom: 60px;
+      }
+      margin-left: 735px;
+      // margin-right: 119px;
+      margin-top: -509px;
+    }
+    .foto {
+      margin: -55px 0px 0px 121px;
+      img {
+        border-radius: 10%;
+        width: 468px;
+        height: 509px;
+        left: 121px;
+        top: -45px;
+        margin-right: -200px;
+      }
+    }
+  }
+  // FAQS.html
+  .fourth-a {
+    background-color: #fafafa;
+    h1 {
+      margin-top: 126px;
+      margin-bottom: -176px;
+    }
+    h3 {
+      font-size: $H3;
+      font-weight: $bold;
+    }
+    h4 {
+      font-size: $H4;
+      font-weight: $bold;
+    }
+    p {
+      font-size: $bodyCard;
+      font-weight: $regular;
+    }
+    ul {
+      margin-bottom: 192px;
+    }
+    ul li {
+      list-style-type: none;
+
+      li {
+        margin-top: 63px;
+      }
+    }
+    .lista {
+      h4 {
+        margin-left: 89px;
+      }
+
+      p {
+        margin-left: 89px;
+        margin-right: 50px;
+        margin-top: -30px;
+        margin-bottom: 60px;
+      }
+      margin-left: 735px;
+      // margin-right: 119px;
+      margin-top: -509px;
+    }
+    .foto {
+      margin: 231px 0px 0px 121px;
+      img {
+        border-radius: 10%;
+        width: 468px;
+        height: 509px;
+        left: 121px;
+        top: -45px;
+        margin-right: -200px;
+      }
+    }
+  }
+  .fifth {
+    background-color: #f5c642;
+    h3 {
+      font-weight: $bold;
+      color: $textoBlanco;
+    }
+    h4 {
+      font-weight: $bold;
+      color: $textoBlanco;
+    }
+    p {
+      font-size: $body;
+      font-weight: $regular;
+      color: $textoBlanco;
+    }
+
+    button:hover {
+      background-color: $azulMarino;
+      color: $textoBlanco;
+    }
+  }
+  hr {
+    margin-top: 192px;
+  }
+}

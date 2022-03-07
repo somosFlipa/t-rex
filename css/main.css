@@ -1,0 +1,859 @@
+nav {
+  background-color: #366ff9;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex; }
+  nav a.nav-link {
+    color: #fcfcfc; }
+  nav button.navbar-toggler {
+    display: grid;
+    margin: -45px -5px 10px auto;
+    border: none; }
+  nav span img {
+    width: 60%;
+    height: 60%; }
+
+header {
+  background: url(../media/yellow-wpp.jpg) no-repeat center center fixed; }
+  header h1 {
+    font-size: 64px;
+    color: #0142de;
+    font-weight: 700;
+    position: absolute; }
+  header .input-group {
+    margin: 33px 0px 464px 122px;
+    width: 50%;
+    border-radius: 10px;
+    position: absolute; }
+    header .input-group button {
+      background-color: #366ff9;
+      border: solid 2px;
+      outline: #366ff9;
+      color: #fcfcfc;
+      width: 221px;
+      height: 58px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 700; }
+    header .input-group button:hover {
+      background-color: #0a2344;
+      color: #fcfcfc; }
+
+main {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff; }
+  main .first h3 {
+    font-size: 36px; }
+  main .first p {
+    font-size: 20px; }
+  main .first .min {
+    margin-top: 75px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #366ff9; }
+  main .first .cards {
+    margin-left: 142px;
+    display: grid;
+    grid-template-areas: "card1 card2 card3";
+    justify-content: space-around; }
+  main .first .card1 {
+    grid-area: card1; }
+  main .first .card2 {
+    background-color: #366ff9;
+    border: none;
+    grid-area: card2;
+    color: #fcfcfc; }
+    main .first .card2 .card-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fcfcfc; }
+    main .first .card2 p {
+      font-size: 16px;
+      color: #fcfcfc; }
+  main .first .card3 {
+    grid-area: card3; }
+  main .first .card {
+    border-radius: 10%;
+    box-shadow: #b9b9b9 6px 6px 6px 5px;
+    border: none;
+    text-align: start;
+    width: 224px;
+    height: 250px; }
+    main .first .card .card-title {
+      margin-bottom: 40px;
+      margin-top: 10px;
+      margin-left: 8px;
+      font-size: 24px;
+      font-weight: 700; }
+    main .first .card p {
+      margin-left: 6px;
+      font-size: 16px; }
+  main .first .card:hover {
+    transform: translate(0, -10px); }
+  main .first button.desktop {
+    background-color: #fcfcfc;
+    border: solid 2px;
+    outline: #366ff9;
+    color: #366ff9;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 6px;
+    width: 223px;
+    height: 60px; }
+  main .first button.desktop:hover {
+    background-color: #0a2344;
+    color: #fcfcfc; }
+  main h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffffff; }
+  main #scrollspyHeading1 {
+    margin: 40px auto 100px auto;
+    background-color: #ffffff; }
+  main .second {
+    background-image: url(../media/backgroun_azul.png); }
+    main .second h3 {
+      font-size: 36px;
+      color: #fcfcfc; }
+    main .second button {
+      background-color: #fcfcfc;
+      border: solid 2px;
+      outline: #366ff9;
+      color: #366ff9;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: 700;
+      width: 221px;
+      height: 52px; }
+    main .second button:hover {
+      background-color: #0a2344;
+      color: #fcfcfc; }
+  main .third {
+    background-color: #ffffff; }
+    main .third .card2 {
+      border: none;
+      grid-area: card2; }
+      main .third .card2 h5 {
+        font-weight: 700; }
+      main .third .card2 p {
+        font-size: 16px; }
+      main .third .card2 p.price {
+        color: #366ff9; }
+      main .third .card2 button {
+        background-color: #366ff9;
+        color: #fcfcfc; }
+      main .third .card2 button:hover {
+        background-color: #0a2344;
+        color: #fcfcfc; }
+    main .third .card {
+      border-radius: 20px;
+      box-shadow: #b9b9b9 6px 6px 6px 5px;
+      border: none;
+      text-align: center;
+      max-width: 345px;
+      max-height: 668px; }
+      main .third .card h5 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 28px; }
+      main .third .card p {
+        font-size: 16px;
+        text-align: start;
+        margin-left: 28px; }
+      main .third .card ul li {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        list-style-type: none; }
+        main .third .card ul li img {
+          width: 11.28px;
+          height: 11.28px;
+          margin-left: -85px;
+          margin-right: 28px; }
+      main .third .card button {
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+        width: 223px;
+        height: 60px; }
+      main .third .card button:hover {
+        background-color: #0a2344;
+        color: #fcfcfc; }
+    main .third p.price {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center; }
+    main .third .card:hover {
+      transform: translate(0, -10px); }
+      main .third .card:hover .price {
+        color: #0142de; }
+  main .fourth {
+    background-color: #fafafa; }
+    main .fourth h3 {
+      font-size: 36px;
+      font-weight: 700; }
+    main .fourth h4 {
+      font-size: 24px;
+      font-weight: 700; }
+    main .fourth p {
+      font-size: 16px;
+      font-weight: 400; }
+    main .fourth ul li {
+      list-style-type: none; }
+      main .fourth ul li li {
+        margin-top: 63px; }
+    main .fourth .lista {
+      margin-left: 735px;
+      margin-top: -509px; }
+      main .fourth .lista h4 {
+        margin-left: 89px; }
+      main .fourth .lista p {
+        margin-left: 89px;
+        margin-right: 50px;
+        margin-top: -30px;
+        margin-bottom: 60px; }
+    main .fourth .foto {
+      margin: -55px 0px 0px 121px; }
+      main .fourth .foto img {
+        border-radius: 10%;
+        width: 468px;
+        height: 509px;
+        left: 121px;
+        top: -45px;
+        margin-right: -200px; }
+  main .fourth-a {
+    background-color: #fafafa; }
+    main .fourth-a h1 {
+      margin-top: 126px;
+      margin-bottom: -176px; }
+    main .fourth-a h3 {
+      font-size: 36px;
+      font-weight: 700; }
+    main .fourth-a h4 {
+      font-size: 24px;
+      font-weight: 700; }
+    main .fourth-a p {
+      font-size: 16px;
+      font-weight: 400; }
+    main .fourth-a ul {
+      margin-bottom: 192px; }
+    main .fourth-a ul li {
+      list-style-type: none; }
+      main .fourth-a ul li li {
+        margin-top: 63px; }
+    main .fourth-a .lista {
+      margin-left: 735px;
+      margin-top: -509px; }
+      main .fourth-a .lista h4 {
+        margin-left: 89px; }
+      main .fourth-a .lista p {
+        margin-left: 89px;
+        margin-right: 50px;
+        margin-top: -30px;
+        margin-bottom: 60px; }
+    main .fourth-a .foto {
+      margin: 231px 0px 0px 121px; }
+      main .fourth-a .foto img {
+        border-radius: 10%;
+        width: 468px;
+        height: 509px;
+        left: 121px;
+        top: -45px;
+        margin-right: -200px; }
+  main .fifth {
+    background-color: #f5c642; }
+    main .fifth h3 {
+      font-weight: 700;
+      color: #fcfcfc; }
+    main .fifth h4 {
+      font-weight: 700;
+      color: #fcfcfc; }
+    main .fifth p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #fcfcfc; }
+    main .fifth button:hover {
+      background-color: #0a2344;
+      color: #fcfcfc; }
+  main hr {
+    margin-top: 192px; }
+
+footer {
+  margin-top: 59px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center; }
+  footer .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+  footer .div1 {
+    margin-left: 181px; }
+  footer .div2 {
+    margin-right: -320px;
+    margin-left: 50px; }
+  footer .div3 {
+    text-align: start;
+    margin-left: 517px;
+    margin-right: 44px; }
+  footer .div4 {
+    text-align: start;
+    margin-right: 44px; }
+  footer .div5 {
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: center; }
+  footer .cabeza {
+    color: #366ff9;
+    font-weight: bold; }
+  footer .grey {
+    margin-top: 125px;
+    margin-bottom: 37px;
+    color: #b9b9b9; }
+
+@media (min-width: 375px) and (max-width: 743px) {
+  nav .desktop {
+    display: none; }
+  nav .tablet {
+    display: none; }
+  header {
+    background-attachment: initial;
+    min-height: 250px;
+    min-width: 360px;
+    background-size: contain;
+    background-position: 0px 40px; }
+    header .fixed {
+      position: absolute;
+      top: 100px;
+      margin: 20px;
+      margin-top: 35px; }
+    header h1 {
+      margin-left: 0px;
+      font-size: 24px;
+      display: block;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      width: 244px; }
+    header .desktop {
+      display: none; }
+  main section.tablet {
+    display: none; }
+  main section.desktop {
+    display: none; }
+  main h2.desktop {
+    display: none; }
+  main .first {
+    display: grid;
+    text-align: center;
+    margin-top: 20px; }
+    main .first .card-title {
+      font-size: 18px; }
+    main .first .data {
+      margin-right: auto;
+      margin-left: auto; }
+      main .first .data h3 {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700; }
+      main .first .data p {
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400; }
+    main .first .carousel {
+      margin-right: auto;
+      margin-left: auto; }
+      main .first .carousel .card2 {
+        background-color: #366ff9;
+        color: #ffffff; }
+        main .first .carousel .card2 .card-title {
+          color: #ffffff;
+          font-weight: 700; }
+          main .first .carousel .card2 .card-title p.card-text {
+            color: #ffffff;
+            font-size: 16px; }
+      main .first .carousel .card {
+        box-shadow: #b9b9b9 6px 6px 5px;
+        min-width: 235px;
+        height: 210px;
+        border-radius: 10%;
+        border: none;
+        margin: 21px auto 20px auto;
+        text-align: start; }
+        main .first .carousel .card .card-title {
+          font-size: 20px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          margin-bottom: 20px; }
+        main .first .carousel .card .card-text {
+          text-align: start;
+          font-size: 16px;
+          color: #b9b9b9;
+          font-weight: 400; }
+        main .first .carousel .card .card-body {
+          margin-bottom: -50px; }
+      main .first .carousel .card:hover {
+        transform: translate(0, -10px); }
+  main .second {
+    text-align: center;
+    margin-bottom: 40px; }
+    main .second button {
+      margin-right: auto;
+      margin-left: auto;
+      top: 40px;
+      bottom: 40px; }
+    main .second .desktop {
+      display: none; }
+  main .third .carousel {
+    justify-content: center; }
+    main .third .carousel .card {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 36px; }
+      main .third .carousel .card h5 {
+        font-size: 18px;
+        font-weight: 700; }
+      main .third .carousel .card p {
+        font-size: 14px; }
+      main .third .carousel .card button:hover {
+        background-color: #0a2344;
+        color: #fcfcfc; }
+    main .third .carousel .card1 button {
+      background-color: #fff5da; }
+    main .third .carousel .card3 button {
+      background-color: #fff5da; }
+    main .third .carousel p.price {
+      margin-bottom: 18px;
+      text-align: center;
+      font-size: 36px; }
+  main .fourth .title {
+    top: 5px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 18px; }
+  main .fourth ul {
+    margin: -50px 20px 54px 20px; }
+    main .fourth ul li {
+      text-align: start; }
+      main .fourth ul li img {
+        margin-top: 70px; }
+      main .fourth ul li h4 {
+        font-size: 18px;
+        margin: -30px 20px 7px 56px; }
+      main .fourth ul li p {
+        margin: 0px 20px -15px 56px;
+        font-size: 14px; }
+  main .fifth {
+    justify-content: center; }
+    main .fifth .title {
+      text-align: center;
+      margin-top: 17px; }
+    main .fifth button {
+      background-color: #366ff9;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 8px;
+      bottom: 50px;
+      padding: auto;
+      min-width: 280px;
+      height: 50px;
+      color: #fcfcfc; }
+    main .fifth h3 {
+      font-size: 24px; }
+    main .fifth h4 {
+      font-size: 24px; }
+  footer {
+    font-size: 14px; }
+    footer .tablet {
+      display: none; }
+    footer .desktop {
+      display: none; }
+    footer .parent {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px; }
+    footer .div1 {
+      margin-left: 40px; }
+      footer .div1 img {
+        width: 65px;
+        height: 17, 3px; }
+      footer .div1 .cuerpo {
+        margin-top: 40px; }
+    footer .div2 {
+      margin-left: auto;
+      margin-right: 20px; }
+    footer .div3 {
+      margin-left: 20px;
+      margin-right: 20px; }
+    footer .grey {
+      margin-top: 21px;
+      margin-bottom: 37px;
+      color: #b9b9b9; } }
+
+@media (min-width: 744px) and (max-width: 1279px) {
+  nav button.navbar-toggler {
+    display: grid;
+    margin: auto -5px 10px auto;
+    border: none; }
+  nav .desktop {
+    display: none; }
+  header {
+    background-attachment: initial;
+    min-width: auto;
+    min-height: 500px;
+    background-size: cover;
+    background-position: 0px 40px; }
+    header .fixed {
+      position: absolute;
+      top: 100px;
+      margin: 20px;
+      margin-top: 100px; }
+    header h1 {
+      margin-left: 20px;
+      font-size: 36px;
+      display: block;
+      margin-block-start: 0.67em;
+      width: 244px; }
+    header .input-group {
+      display: none; }
+    header .mobile {
+      display: none; }
+  main .mobile {
+    display: none; }
+  main section.banner {
+    display: none; }
+  main section.desktop {
+    display: none; }
+  main .first .text {
+    margin-top: 30px; }
+  main .first .cards {
+    text-align: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto; }
+  main .first button {
+    margin-left: auto; }
+  main .second {
+    display: none; }
+  main section.second-tablet {
+    background-image: url(../media/backgroun_azul.png);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 152px; }
+    main section.second-tablet button {
+      background-color: #fcfcfc;
+      border: solid 2px;
+      outline: #366ff9;
+      color: #366ff9;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: 700;
+      width: 221px;
+      height: 52px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 40px;
+      bottom: 40px; }
+    main section.second-tablet button:hover {
+      background-color: #0a2344;
+      color: #fcfcfc; }
+  main .third-tablet {
+    background-color: #ffffff; }
+    main .third-tablet .card {
+      margin-left: auto;
+      margin-right: auto;
+      width: 345px;
+      height: 500px; }
+    main .third-tablet .card {
+      border-radius: 20px;
+      box-shadow: #b9b9b9 6px 6px 5px;
+      border: none;
+      text-align: center;
+      max-width: 345px;
+      max-height: 668px; }
+      main .third-tablet .card h5 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: start;
+        margin-left: 28px; }
+      main .third-tablet .card p {
+        font-size: 16px;
+        text-align: start;
+        margin-left: 28px; }
+      main .third-tablet .card ul li {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        list-style-type: none; }
+        main .third-tablet .card ul li img {
+          width: 11.28px;
+          height: 11.28px;
+          margin-left: -85px;
+          margin-right: 28px; }
+      main .third-tablet .card button {
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+        width: 223px;
+        height: 60px;
+        background-color: #fff5da;
+        margin-top: 40px; }
+      main .third-tablet .card button:hover {
+        background-color: #0a2344;
+        color: #fcfcfc; }
+    main .third-tablet p.price {
+      font-weight: 700;
+      font-size: 32px;
+      text-align: center; }
+    main .third-tablet .card2 {
+      border: none;
+      grid-area: card2; }
+      main .third-tablet .card2 h5 {
+        font-size: 18px;
+        font-weight: 700; }
+      main .third-tablet .card2 p {
+        font-size: 14px; }
+      main .third-tablet .card2 p.price {
+        color: #366ff9;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center; }
+      main .third-tablet .card2 button {
+        background-color: #366ff9;
+        color: #fcfcfc; }
+      main .third-tablet .card2 button:hover {
+        background-color: #0a2344;
+        color: #fcfcfc; }
+    main .third-tablet .card:hover {
+      transform: translate(0, -10px); }
+      main .third-tablet .card:hover .price {
+        color: #0142de; }
+  main .fourth-tablet h3 {
+    margin-top: 50px;
+    font-size: 36px; }
+  main .fourth-tablet ul li {
+    list-style-type: none;
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 50px; }
+    main .fourth-tablet ul li h4 {
+      margin-left: 50px;
+      margin-top: -50px; }
+    main .fourth-tablet ul li p {
+      margin-left: 50px; }
+  main .fifth-tablet {
+    background-color: #f5c642; }
+    main .fifth-tablet h3 {
+      font-weight: 700;
+      color: #fcfcfc;
+      text-align: center;
+      margin-top: 50px; }
+    main .fifth-tablet h4 {
+      font-weight: 700;
+      color: #fcfcfc;
+      text-align: center; }
+    main .fifth-tablet .formulario {
+      width: 600px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+    main .fifth-tablet button {
+      background-color: #366ff9;
+      color: #fcfcfc;
+      margin-bottom: 100px;
+      width: 600px; }
+    main .fifth-tablet button:hover {
+      background-color: #0a2344;
+      color: #fcfcfc; }
+  footer {
+    font-size: 14px; }
+    footer .desktop {
+      display: none; }
+    footer .parent {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px; }
+    footer .div1 {
+      margin-left: 40px; }
+      footer .div1 .cuerpo {
+        display: none; }
+      footer .div1 p.tablet {
+        margin-left: 50px;
+        margin-top: 20px; }
+    footer .div2 {
+      margin-left: auto;
+      margin-right: 20px; }
+    footer .div3 {
+      margin-left: 20px;
+      margin-right: 20px; }
+    footer .grey {
+      margin-top: 21px;
+      margin-bottom: 37px;
+      color: #b9b9b9; } }
+
+@media screen and (min-width: 769px) {
+  nav .mobile {
+    display: none; }
+  nav .tablet {
+    display: none; }
+  header {
+    background-attachment: fixed;
+    height: 812px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    header .mobile {
+      display: none; }
+    header h1 {
+      margin: 198px 0px 0px 122px; }
+    header h2 {
+      margin: 0px 0px 33px 122px; }
+    header .input-group {
+      top: 424px; }
+  main section.tablet {
+    display: none; }
+  main section.mobile {
+    display: none; }
+  main .banner {
+    width: 954px;
+    height: 125px;
+    top: 737px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: #b9b9b9 6px 6px 5px;
+    display: grid;
+    background-color: #ffffff;
+    margin-left: 242px; }
+    main .banner .row {
+      margin-top: 41px;
+      margin-bottom: 51.8px;
+      justify-content: space-between;
+      text-align: center; }
+    main .banner img {
+      width: 150px;
+      height: auto; }
+  main .first {
+    margin: 0px 120px 50px 120px; }
+    main .first .card .card-title {
+      margin-left: 22px; }
+    main .first .card1 {
+      margin: 75px 19px 98px auto; }
+    main .first .card2 {
+      margin: 75px 19px 98px auto; }
+    main .first .card3 {
+      margin: 75px 19px 98px auto; }
+  main .third {
+    margin: 140px 0px 135px 0px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-areas: "card1 card2 card3"; }
+    main .third .card1 {
+      grid-area: card1; }
+      main .third .card1 button {
+        background-color: #fff5da; }
+    main .third .card3 {
+      grid-area: card3; }
+      main .third .card3 button {
+        background-color: #fff5da; }
+    main .third button {
+      margin: 90px 56px 48px 56px; }
+    main .third .card {
+      margin-bottom: 135px; }
+      main .third .card h5 {
+        font-size: 24px; }
+      main .third .card ul {
+        margin: 42px auto 0px auto; }
+      main .third .card p.price {
+        margin: 31px 0px 31px 0px;
+        font-size: 48px; }
+  main .fourth {
+    margin-top: 0px; }
+    main .fourth .title {
+      margin-top: -87px;
+      margin-bottom: 110px; }
+    main .fourth p.last {
+      margin-bottom: 140px; }
+  main .fifth {
+    height: 725px; }
+    main .fifth .texto {
+      margin-top: 120px;
+      margin-left: 121px; }
+      main .fifth .texto h3 {
+        font-size: 45px; }
+      main .fifth .texto h4 {
+        font-size: 45px; }
+      main .fifth .texto p {
+        margin-top: 68px; }
+    main .fifth .miForm {
+      margin-top: 72px;
+      margin-left: -30px; }
+      main .fifth .miForm .mb-3 {
+        margin-top: 36px; }
+    main .fifth .formulario {
+      width: 466px;
+      height: 60px; }
+    main .fifth button {
+      background-color: #366ff9;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 8px;
+      width: 466px;
+      height: 60px;
+      top: 642px;
+      color: #fcfcfc; }
+  footer {
+    margin-top: 59px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center; }
+    footer .tablet {
+      display: none; }
+    footer .mobile {
+      display: none; }
+    footer .parent {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px; }
+    footer .div1 {
+      margin-left: 181px; }
+    footer .div2 {
+      margin-right: -320px;
+      margin-left: 50px; }
+    footer .div3 {
+      text-align: start;
+      margin-left: 517px;
+      margin-right: 44px; }
+    footer .div4 {
+      text-align: start;
+      margin-right: 44px; }
+    footer .div5 {
+      margin-left: 0px;
+      margin-right: auto;
+      text-align: center; }
+    footer .cabeza {
+      color: #366ff9;
+      font-weight: bold; }
+    footer .grey {
+      margin-top: 55px;
+      margin-bottom: 37px;
+      color: #b9b9b9; } }
+
+.no-header header {
+  display: none; }

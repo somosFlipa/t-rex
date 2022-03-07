@@ -1,0 +1,54 @@
+$amarillo: #f5c642;
+$beige: #fff5da;
+$celesteClaro: #ffd8de;
+$celeste1: #366ff9;
+$azulFrancia: #0142de;
+$azulMarino: #0a2344;
+$textoBlanco: #fcfcfc;
+$textoGris: #b9b9b9;
+$H1: 64px;
+$H2: 48px;
+$H3: 36px;
+$H4: 24px;
+$cardheader: 24px;
+$body: 20px;
+$bodyCard: 16px;
+$extraBold: 900;
+$bold: 700;
+$medium: 500;
+$regular: 400;
+$light: 300;
+$thin: 200;
+
+header {
+  background: url(../media/yellow-wpp.jpg) no-repeat center center fixed;
+  h1 {
+    font-size: $H1;
+    color: $azulFrancia;
+    font-weight: $bold;
+    position: absolute;
+  }
+
+  .input-group {
+    margin: 33px 0px 464px 122px;
+    width: 50%;
+    border-radius: 10px;
+
+    position: absolute;
+    button {
+      background-color: $celeste1;
+      border: solid 2px;
+      outline: $celeste1;
+      color: $textoBlanco;
+      width: 221px;
+      height: 58px;
+      border-radius: 10px;
+      font-size: $body;
+      font-weight: $bold;
+    }
+    button:hover {
+      background-color: $azulMarino;
+      color: $textoBlanco;
+    }
+  }
+}
